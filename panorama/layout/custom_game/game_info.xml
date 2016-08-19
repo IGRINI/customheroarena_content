@@ -1,0 +1,16 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/game_info.css" />
+	</styles>
+	<Panel class="GameInfo" >
+		<Panel id="Title">
+			<Label id="TitleName" text="#addon_game_name" />
+		</Panel> 
+		<Label id="H1" class="Header" html="true" text="#head_ssui" /> 
+		<Panel id="Info1" class="InfoStringDown" >
+			<Image id="InfoImage" src="file://{images}/custom_game/game_info/ssui.png" />
+			<Label id="InfoText" text="#ssui" />
+		</Panel> 
+	</Panel>		
+</root>
