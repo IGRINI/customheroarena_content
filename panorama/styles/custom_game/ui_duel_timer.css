@@ -21,23 +21,22 @@
 }
 #Block
 {
-
 	flow-children: none;
 	width: 230px;
 	height: 50px;
 	horizontal-align: left;
 	vertical-align: bottom;
 	margin-left: 1.5%;
-	margin-bottom:26.7%;
-	background-image: url("s2r://panorama/images/custom_game/ui_timer_png.vtex");
+	margin-bottom:16.0%;
+	background-image: url("file://{images}/custom_game/ui_timer.psd");
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: center;
 	background-size: 100% 100%;
 }
 #Attension
 {
-	flow-children: down;
-	horizontal-align: center;
+	flow-children: right;
+	horizontal-align: right;
 	margin-top:80px;
 	color: #FF0000;
 	font-size: 34px;
@@ -47,8 +46,8 @@
 {
     horizontal-align: right;
 	flow-children: none;
-	margin-bottom: -30%;
-	margin-top:8px;
+	margin-bottom: 0%;
+	margin-top:0px;
 	margin-right:4px;
 	vertical-align: center;
 	horizontal-align: center;

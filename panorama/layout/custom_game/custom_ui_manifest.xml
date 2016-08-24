@@ -1,6 +1,6 @@
 <root>
 	<scripts>
-		<include src="s2r://panorama/scripts/custom_game/functions.vjs_c" />
+		<include src="file://{resources}/scripts/custom_game/functions.js" />
 	</scripts>
 	
 	<script>
@@ -25,6 +25,7 @@
 		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/hero_change_ui.xml" />
 		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/teleport_ui.xml" />
 		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/shop.xml" />
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/pickabilities.xml" />
 		
 		<CustomUIElement type="HudTopBar" layoutfile="file://{resources}/layout/custom_game/multiteam_top_scoreboard.xml" />
 		<CustomUIElement type="GameSetup" layoutfile="file://{resources}/layout/custom_game/team_select.xml" />
